@@ -29,12 +29,12 @@ workflows:
       - name: Build APK
         script: |
           flutter build apk --flavor dev -t lib/main_dev.dart
-      - name: Build iOS
-        script: |
-          flutter build ios --flavor dev -t lib/main_dev.dart
+      #   script: |
+      #     flutter build ios --flavor dev -t lib/main_dev.dart
+    #  - name: Build iOS
     artifacts:
       - build/app/outputs/flutter-apk/app-dev.apk
-      - build/ios/ipa/*.ipa
+      # - build/ios/ipa/*.ipa
 
   prod:
     name: Production Build

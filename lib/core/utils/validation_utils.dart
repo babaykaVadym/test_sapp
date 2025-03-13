@@ -1,7 +1,6 @@
 import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter_app_scarb/generated/locale_keys.g.dart';
 import 'package:form_validator/form_validator.dart';
-
-import '../translations/local_keys.g.dart';
 
 class ValidationUtils {
   static String? validateEmail(String? email) {

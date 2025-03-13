@@ -1,8 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_app_scarb/generated/locale_keys.g.dart';
 import 'package:widgets_library/widgets_library.dart';
-
-import '../../../../core/translations/local_keys.g.dart';
 
 class InviteLinkTextField extends StatelessWidget {
   final TextEditingController? controller;

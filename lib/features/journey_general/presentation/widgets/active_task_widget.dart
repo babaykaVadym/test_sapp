@@ -4,7 +4,7 @@ import 'package:flutter_app_scarb/core/helper/images.dart';
 import 'package:flutter_app_scarb/core/style/consts/button_constants.dart';
 import 'package:flutter_app_scarb/core/style/consts/spaces.dart';
 import 'package:flutter_app_scarb/core/style/text_styles/basic_text_styles.dart';
-import 'package:flutter_app_scarb/core/translations/local_keys.g.dart';
+import 'package:flutter_app_scarb/generated/locale_keys.g.dart';
 import 'package:flutter_svg/flutter_svg.dart';
 import 'package:widgets_library/core/styles/colors.dart';
 import 'package:widgets_library/core/widgets/buttons/button_svg_icon.dart';

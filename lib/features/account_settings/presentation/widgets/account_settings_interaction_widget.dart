@@ -1,9 +1,9 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_scarb/core/helper/images.dart';
-import 'package:flutter_app_scarb/core/translations/local_keys.g.dart';
 import 'package:flutter_app_scarb/features/account_settings/presentation/widgets/account_log_out_widget.dart';
 import 'package:flutter_app_scarb/features/account_settings/presentation/widgets/account_settings_button_view.dart';
+import 'package:flutter_app_scarb/generated/locale_keys.g.dart';
 import 'package:flutter_app_scarb/router.dart';
 import 'package:go_router/go_router.dart';
 

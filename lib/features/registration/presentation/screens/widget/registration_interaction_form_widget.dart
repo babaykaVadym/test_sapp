@@ -2,11 +2,11 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_scarb/core/style/consts/basic_constants.dart';
 import 'package:flutter_app_scarb/core/style/consts/spaces.dart';
-import 'package:flutter_app_scarb/core/translations/local_keys.g.dart';
 import 'package:flutter_app_scarb/features/registration/presentation/cubit/registration_cubit.dart';
 import 'package:flutter_app_scarb/features/registration/presentation/widgets/email_text_field.dart';
 import 'package:flutter_app_scarb/features/registration/presentation/widgets/invite_link_text_field.dart';
 import 'package:flutter_app_scarb/features/registration/presentation/widgets/password_text_field.dart';
+import 'package:flutter_app_scarb/generated/locale_keys.g.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
 class RegistrationInteractionFormWidget extends StatelessWidget {

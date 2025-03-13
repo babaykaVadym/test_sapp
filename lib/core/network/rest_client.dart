@@ -3,8 +3,8 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter_app_scarb/config/app_config.dart';
 import 'package:flutter_app_scarb/core/network/api_config.dart';
-import 'package:flutter_app_scarb/core/translations/local_keys.g.dart';
 import 'package:flutter_app_scarb/core/utils/failures.dart';
+import 'package:flutter_app_scarb/generated/locale_keys.g.dart';
 
 part 'api_options.dart';
 

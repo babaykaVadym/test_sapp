@@ -1,8 +1,7 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter_app_scarb/core/helper/images.dart';
 import 'package:flutter_app_scarb/features/navigation_bar/model/navigation_button_model.dart';
-
-import '../../../core/translations/local_keys.g.dart';
+import 'package:flutter_app_scarb/generated/locale_keys.g.dart';
 
 final List<NavigationButtonModel> navigationButtons = [
   NavigationButtonModel(

@@ -1,8 +1,8 @@
 import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_app_scarb/core/translations/local_keys.g.dart';
 import 'package:flutter_app_scarb/features/onboarding/presentation/screens/pages/marital_status/widget/marital_status_item_list.dart';
 import 'package:flutter_app_scarb/features/personal_settings/presentation/cubit/personal_settings_cubit.dart';
+import 'package:flutter_app_scarb/generated/locale_keys.g.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:widgets_library/widgets_library.dart';
 

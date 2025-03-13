@@ -20,6 +20,12 @@ workflows:
       - name: Generate code
         script: |
           flutter pub run build_runner build --delete-conflicting-outputs
+      - name: Generate translation
+        script: |
+          flutter pub run easy_localization:generate -S assets/translations -f keys -o locale_keys.g.dart
+      - name: Generate translation file
+        script: |
+          flutter pub run easy_localization:generate --source-dir assets/translations
       - name: Build APK
         script: |
           flutter build apk --flavor dev -t lib/main_dev.dart
@@ -51,6 +57,12 @@ workflows:
       - name: Generate code
         script: |
           flutter pub run build_runner build --delete-conflicting-outputs
+      - name: Generate translation
+        script: |
+          flutter pub run easy_localization:generate -S assets/translations -f keys -o locale_keys.g.dart
+      - name: Generate translation file
+        script: |
+          flutter pub run easy_localization:generate --source-dir assets/translations
       - name: Build APK
         script: |
           flutter build apk --flavor prod -t lib/main_prod.dart

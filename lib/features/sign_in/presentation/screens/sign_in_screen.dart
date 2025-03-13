@@ -2,7 +2,6 @@ import 'package:easy_localization/easy_localization.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_app_scarb/core/style/consts/basic_constants.dart';
 import 'package:flutter_app_scarb/core/style/consts/spaces.dart';
-import 'package:flutter_app_scarb/core/translations/local_keys.g.dart';
 import 'package:flutter_app_scarb/core/utils/keyboard_tool.dart';
 import 'package:flutter_app_scarb/features/onboarding/presentation/widgets/content_constrain_widget.dart';
 import 'package:flutter_app_scarb/features/onboarding/presentation/widgets/content_scroll_builder.dart';
@@ -12,6 +11,7 @@ import 'package:flutter_app_scarb/features/registration/presentation/widgets/pas
 import 'package:flutter_app_scarb/features/sign_in/presentation/widgets/forgot_password_widget.dart';
 import 'package:flutter_app_scarb/features/sign_in/presentation/widgets/sign_in_title_widget.dart';
 import 'package:flutter_app_scarb/features/sign_in/presentation/widgets/sign_up_widget.dart';
+import 'package:flutter_app_scarb/generated/locale_keys.g.dart';
 import 'package:flutter_app_scarb/router.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:go_router/go_router.dart';

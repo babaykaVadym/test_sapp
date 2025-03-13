@@ -1,0 +1,118 @@
+name: flutter_app_scarb
+description: "Scarb app"
+# The following line prevents the package from being accidentally published to
+# pub.dev using `flutter pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.6.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Local private widget library
+  widgets_library:
+    path: packages/widgets_library
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.8
+  flutter_native_splash: ^2.4.4
+  flutter_svg: ^2.0.17
+  get_it: ^8.0.3
+  shared_preferences: ^2.5.1
+  equatable: ^2.0.7
+  flutter_bloc: ^9.0.0
+  go_router: ^14.7.2
+  easy_localization: ^3.0.7+1
+  freezed_annotation: ^2.4.4
+  json_annotation: ^4.9.0
+  dio: ^5.8.0+1
+  fluttertoast: ^8.2.11
+  dartz: ^0.10.1
+  collection: ^1.19.1
+  envied: ^1.1.1
+  timeline_tile: ^2.0.0
+
+  # Logger
+  l: ^5.0.0
+  intl: ^0.19.0
+  form_validator: ^2.1.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  # The "flutter_lints" package below contains a set of recommended lints to
+  # encourage good coding practices. The lint set provided by the package is
+  # activated in the `analysis_options.yaml` file located at the root of your
+  # package. See that file for information about deactivating specific lint
+  # rules and activating additional ones.
+  flutter_lints: ^5.0.0
+  build_runner: ^2.4.14
+  freezed: ^2.5.8
+  json_serializable:
+  flutter_flavorizr: ^2.2.3
+  envied_generator: ^1.1.1
+
+# The following section is specific to Flutter packages.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/images/
+    - assets/images/svg/
+    - assets/images/png/
+    - assets/images/svg/onboard_svg/
+    - assets/images/svg/journey_general/
+    - assets/images/svg/journey_general/journey_practice_icon/
+    - assets/images/svg/journey_general/journey_way_icon/
+    - assets/images/svg/emotion_svg/
+    - assets/images/svg/questionnaire_svg/
+    - assets/images/svg/navigation_bar/
+    - assets/images/svg/result_determination/
+    - assets/images/svg/start_questionnaire/
+    - assets/images/svg/account_settings/
+    - assets/images/svg/questionnaire_without_diagnosis/
+    - assets/translations/
+
+  fonts:
+    - family: FixelDisplay
+      fonts:
+        - asset: fonts/fixeldisplay/FixelDisplay-Thin.otf
+          weight: 200
+        - asset: fonts/fixeldisplay/FixelDisplay-ThinItalic.otf
+          style: italic
+          weight: 200
+        - asset: fonts/fixeldisplay/FixelDisplay-Light.otf
+          weight: 300
+        - asset: fonts/fixeldisplay/FixelDisplay-LightItalic.otf
+          style: italic
+          weight: 300
+        - asset: fonts/fixeldisplay/FixelDisplay-Regular.otf
+          weight: 400
+        - asset: fonts/fixeldisplay/FixelDisplay-Medium.otf
+          weight: 500
+        - asset: fonts/fixeldisplay/FixelDisplay-SemiBold.otf
+          weight: 600
+        - asset: fonts/fixeldisplay/FixelDisplay-MediumItalic.otf
+          style: italic
+          weight: 500
+        - asset: fonts/fixeldisplay/FixelDisplay-Bold.otf
+          weight: 700
+        - asset: fonts/fixeldisplay/FixelDisplay-BoldItalic.otf
+          style: italic
+          weight: 700
+        - asset: fonts/fixeldisplay/FixelDisplay-Black.otf
+          weight: 900
+        - asset: fonts/fixeldisplay/FixelDisplay-BlackItalic.otf
+          style: italic
+          weight: 900

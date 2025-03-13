@@ -1,0 +1,37 @@
+
+  flavors:
+    dev:
+      app:
+        name: "App Dev"
+        
+      android:
+        applicationId: "com.example.flutter_app_scarb.dev"
+        variables:
+          ENV: ".env.dev"
+          ENV_TYPE: "development"
+          
+      ios:
+        bundleId: "com.example.flutter_app_scarb.dev"
+        buildSettings:
+          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "DEBUG FLAVOR_DEV"
+          ENV_FILE: ".env.dev"
+          ENV_TYPE: "development"
+          
+    prod:
+      app:
+        name: "App"
+        
+      android:
+        applicationId: "com.example.flutter_app_scarb"
+        variables:
+          ENV: ".env.prod"
+          ENV_TYPE: "production"
+          
+      ios:
+        bundleId: "com.example.flutter_app_scarb"
+        buildSettings:
+          SWIFT_ACTIVE_COMPILATION_CONDITIONS: "RELEASE FLAVOR_PROD"
+          ENV_FILE: ".env.prod"
+          ENV_TYPE: "production"
+  
+ 

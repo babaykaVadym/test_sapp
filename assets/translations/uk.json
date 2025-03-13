@@ -1,0 +1,301 @@
+{
+  "helloIMSky": "Привіт, я Скай",
+  "hereToHelpTrackEmotions": "Я тут, щоб допомогти вам відстежувати свій емоційний стан",
+  "togetherForABetterLife": "Разом до кращого життя",
+  "leaveWishesInApp": "Залишайте свої побажання у додатку, і ми обов’язково їх врахуємо",
+  "error": {
+    "connectionTimeout": "Перевищено час очікування з'єднання.",
+    "receiveTimeout": "Перевищено час очікування отримання відповіді.",
+    "sendTimeout": "перевищено час очікування відправки.",
+    "cancel": "Запит було скасовано",
+    "unknown": "Невідома помилка: {}",
+    "somethingWentWrong": "Щось пішло не так.",
+    "unknownError": "Невідома помилка: {}"
+  },
+  "onboarding": {
+    "whatIsYourName": "Як вас звати?",
+    "yourName": "Ваше ім’я",
+    "enterYourFullName": "Введіть ваше повне ім’я",
+    "whenDidYouJoinTheTeam": "Коли ви приєднались до команди?",
+    "dateYouJoined": "Дата, коли ви приєднались",
+    "specifyTheDate": "Вкажіть дату",
+    "thisFieldIsRequired": "Це поле обов’язкове",
+    "chooseDate": "Оберіть дату",
+    "selectMonthAndYear": "Виберіть місяць і рік",
+    "femaleBtn": "Жіноча",
+    "maleBtn": "Чоловіча",
+    "otherBtn": "Інше",
+    "continueBtn": "Продовжити",
+    "cancelBtn": "Скасувати",
+    "confirmBtn": "Підтвердити",
+    "identifyAsWoman": "Ідентифікую себе як жінка",
+    "identifyAsMan": "Ідентифікую себе як чоловік",
+    "indicateYourGender": "Вкажіть свою стать",
+    "indicateYourGenderIdentity": "Вкажіть свою гендерну ідентичність",
+    "haveChildren": "Ви маєте дітей?",
+    "yesHave": "Так, маю",
+    "noDontHave": "Ні, не маю",
+    "enterYourMaritalStatus": "Вкажіть ваш сімейний стан",
+    "singleOrUnmarried": "Неодружений/незаміжня",
+    "married": "Одружений/заміжня",
+    "divorced": "Розлучений/на",
+    "widowOrWidower": "Вдова/Вдівець",
+    "inRelationship": "У стосунках",
+    "doNotSpecify": "Не вказувати",
+    "engaged": "Заручений/на",
+    "complicated": "Складні стосунки",
+    "heartbroken": "Розбите серце",
+    "single": "Не у стосунках",
+    "enterYourBirthDate": "Вкажіть вашу дату нароження",
+    "dirthDate": "Дата народження",
+    "enterBirthDate": "Вкажіть дату народження",
+    "extremelyPositive": "Вкрай позитивне",
+    "positive": "Позитивне",
+    "neutral": "Нейтральне",
+    "liveTogether": "Проживаємо разом",
+    "negative": "Негативне",
+    "extremelyNegative": "Вкрай негативне",
+    "describeYourAttitudeTowardsDigitalTechnologies": "Опишіть своє ставлення до цифрових технологій",
+    "enterTheNumberChildren": "Вкажіть кількість дітей",
+    "successfully": "Успішно"
+  },
+  "registration": {
+    "signUp": "Зареєструватись",
+    "yourEmail": "Ваш e-mail",
+    "enterEmail": "Введіть e-mail",
+    "yourPassword": "Ваш пароль",
+    "createPassword": "Придумайте пароль",
+    "confirmPassword": "Підтвердіть пароль",
+    "passwordsDoNotMatch": "Паролі не збігаються, спробуйте ще раз.",
+    "alreadyHaveAccount": "Вже є акаунт?",
+    "logIn": "Увійти",
+    "passwordMinLength": "Пароль має бути не менше {length} символів",
+    "passwordMaxLength": "Пароль не може перевищувати {length} символи",
+    "invalidEmail": "Введіть дійсну адресу електронної пошти",
+    "thisFieldIsRequired": "Це поле обов’язкове",
+    "inviteLink": "Посилання на запрошення",
+    "enterInviteLink": "Введіть посилання",
+    "continueBtn": "Продовжити"
+  },
+  "login": {
+    "forgotPassword": "Забули пароль?",
+    "enterYourPassword": "Введіть ваш пароль",
+    "welcomeBack": "З поверненням",
+    "howYouFeelingYoday": "Який ваш настрій сьогодні?",
+    "cheerfulState": "Веселий",
+    "sadState": "Cумний",
+    "depressedState": "Пригнічений",
+    "buoyantState": "Життєрадісний"
+  },
+  "calendarPicker": {
+    "cancelBtn": "Скасувати",
+    "confirmBtn": "Підтвердити"
+  },
+  "questionnaire": {
+    "neverBtn": "Ніколи",
+    "startBtn": "Розпочати",
+    "fewDaysBtn": "Кілька днів",
+    "moreThanHaltTimeBtn": "Більше половини часу",
+    "almostEveryDayBtn": "Майже щодня",
+    "continueBtn": "Продовжити",
+    "veryRareBtn": "Дуже рідко",
+    "rarelyBtn": "Рідко",
+    "sometimesBtn": "Іноді",
+    "oftenBtn": "Часто",
+    "veryOften": "Дуже часто",
+    "thanksForAnswers": "Дякуємо за відповіді!",
+    "letAssessYourEmotionalState": "Давайте оцінимо ваш емоційний стан",
+    "questionnaireHowOftenDuringPastTwoWeeks": "Як часто протягом останніх двох тижнів вас турбували будь-які з наступних проблем?",
+    "questionnaireEachQuestionHasFourAnswer": "Кожне запитання має чотири варіанти відповіді, які оцінюють частоту та інтенсивність симптомів. Будь ласка, виберіть один із варіантів.",
+    "youAreNotAlone": "Ви не самі ...",
+    "yourColleaguesFaceSuch": "20% ваших колег стикаються з такими самими викликами. Ви разом на шляху до покращення."
+  },
+  "bottomNavigationBar": {
+    "myWayBtn": "Мій шлях",
+    "chatBtn": "Чат",
+    "moodBtn": "Настрій",
+    "feedBtn": "Стрічка",
+    "profileBtn": "Профіль"
+  },
+  "journeyGeneral": {
+    "myWay": "Мій шлях",
+    "additionalTask": "Додаткове завдання",
+    "stepByStepToImprove": "Крок за кроком до покращення!",
+    "nextStepWillBeAvailableTomorrow": "Наступний крок буде доступний завтра.",
+    "nextStepIsNotYetAvailable": "Наступний крок ще не доступний",
+    "passPreviousStage": "Пройдіть попередній етап, і тоді ви зможете рухатися далі.",
+    "takeSurveyToAssessYourCondition" : "Пройдіть опитування для оцінки стану та визначення симптомів."
+  },
+  "journeySteps": {
+    "stepLabel" : "Крок {}"
+  },
+  "navigationBar" : {
+    "myWayLabel" : "Мій шлях",
+    "chatLabel" :"Чат",
+    "moodLabel" : "Настрій",
+    "feedLabel" :"Стрічка",
+     "profileLabel" :"Профіль"
+  },
+  "forgotPassword" : {
+    "recoverPassword" : "Відновити пароль",
+    "weWillSendRecoveryInstructions" : "Ми відправимо інструкцію по відновленню паролю на ваш e-mail",
+    "yourEmail": "Ваш e-mail",
+    "enterEmail": "Введіть e-mail",
+    "continueBtn": "Продовжити",
+    "weWillSendRecoveryInstructionsToMail" : "Ми надіслали інструкції для відновлення пароля на електронну адресу {email}. Будь ласка, перевірте вашу пошту.",
+    "ifYouDidNotReceiveTheInstructions" :"Якщо ви не отримали інструкції, перевірте папку “Спам” або надішліть повторно.",
+    "sendAgain" :"Надіслати повторно"
+  },
+  "newPassword" :{
+    "recoverPassword" : "Відновити пароль",
+    "continueBtn": "Продовжити",
+    "enterNewPasswordForYourAccount" :"Введіть новий пароль для вашого акаунта. Переконайтесь, що він достатньо надійний, щоб забезпечити вашу безпеку.",
+    "yourNewPassword" :"Ваш новий пароль",
+    "createNewPassword" : "Придумайте новий пароль",
+    "confirmPassword": "Підтвердіть пароль",
+    "confirmNewPassword" : "Підтвердіть новий пароль",
+    "passwordSuccessfullyRecovered" :"Пароль успішно відновлено",
+    "youHaveSuccessfullyUpdatedPassword" : "Ви успішно оновили пароль і можете увійти в додаток.",
+    "getOutBtn" : "Вийти",
+    "logInToTheApp" : "Увійти в додаток"
+  },
+  "resultDetermination" : {
+    "letsSetPriority" : "Давайте встановимо пріоритетність",
+    "dragCardsInThatOrderText" : "Перетягніть картки в тому порядку, в якому хочете розпочати працювати. Це допоможе нам створити план саме під ваш запит",
+    "confirmBtn": "Підтвердити",
+    "startBtn": "Розпочати",
+    "pointsLabel" : "балів",
+    "yourResult" : "Ваш результат",
+    "preparingYourPathToTecovery" :"Готуємо твій шлях по відновленню",
+    "yourPathToRecoveryIsReady" : "Твій шлях по відновленню готовий",
+    "whatIsIt" : "Що це?"
+  },
+  "questionnaireDefine" : {
+    "letsDetermineYourEmotionalState" :"Давайте визначимо ваш емоційний стан",
+    "thisShortSurveyWillHelpText" : "Цей короткий опитувальник допоможе вам виявити сфери, які потребують уваги",
+    "continueBtn": "Продовжити",
+    "yourAnswersAreConfidentialText" : "Ваші відповіді конфіденційні та допоможуть нам краще підтримати вас у професійному розвитку."
+  },
+  "questionnaireInit" : {
+    "thinkAboutYourFeelings" : "Подумайте про свої відчуття за останні два тижні",
+    "chooseHowOftenText" : "Оберіть, як часто Ви відчували описане.",
+    "beHonestText" : "Будьте чесними – тут немає правильних чи неправильних відповідей.",
+    "areYouReadyText" : "Готові? Давайте почнемо!",
+    "startBtn": "Розпочати",
+    "absolutelyNotBtn" : "Зовсім ні",
+    "fewDaysBtn" :"Кілька днів",
+    "moreThanHalfDaysBtn" : "Більше половини днів",
+    "almostEveryDayBtn" : "Майже щодня",  
+    "veryRareBtn": "Дуже рідко",
+    "rarelyBtn": "Рідко",
+    "sometimesBtn": "Іноді",
+    "oftenBtn": "Часто",
+    "veryOften": "Дуже часто"
+  },
+  "questionnaireResults" : {
+    "thanksForTheAnswers" : "Дякуємо за відповіді!",
+    "weHaveAnalyzedYourResponsesText" : "Ми проаналізували ваші відповіді та підготували результати. Подивіться на графік, щоб зрозуміти, які аспекти потребують уваги.",
+    "pointsLabel" : "балів",
+    "yourResult" : "Ваш результат",
+    "startTheJourney" : "Почати шлях",
+    "consultationWithExpert" :"Консультація з експертом",
+    "wantThisInTheApp" : "Хочу щоб це було у додатку",
+    "thankYouWeWillDefinitelyTake" : "Дякуємо, ми обов’язково врахуємо твоє побажання!",
+    "doYouDeelNeedGetProfessional" : "Відчуваєте потребу отримати професійну підтримку?",
+    "leaveYourRequestText" :"Залиште свій запит, і ми знайдемо для вас кваліфікованого психолога. Консультація допоможе вам краще зрозуміти свої почуття та знайти шляхи до вирішення проблем.",
+    "orderConsultation" : "Замовити консультацію",
+    "thankYouForYourRequest" : "Дякуємо за твій запит!",
+    "weAreAlreadyLookingForSpecialist" : "Ми вже шукаємо для тебе спеціаліста. Ти отримаєш повідослення на електрону адресу, щойно ми знайдемо відповідного спеціаліста!"
+  },
+  "startQuestionnaireSelectState" : {
+    "anxietyBtn" : "Тривожність",
+    "depressionBtn" : "Депресивність",
+    "professionalBurnout" : "Професійне вигорання",
+    "confirmBtn": "Підтвердити",
+    "whatDoYouWantWork" : "Над чим ви хочете попрацювати?"
+  },
+  "startQuestionnaire" : {
+    "yesIKnowBtn" : "Так, знаю",
+    "iDonNotKnowBtn" : "Я не знаю",
+    "doYouKnowProblemYouWantWork" : "Чи знаєте ви проблему з якою хочете працювати?"
+  },
+  "wantWorkOn" : {
+    "defineWhatYouWantWorkOn" : "Давайте визначимо, над чим хочете попрацювати",
+    "chooseConditionThatConcernsYouText" : "Оберіть той стан, який вас найбільше турбує зараз, щоб отримати підтримку та корисну інформацію.",
+    "maybeLaterBtn" : "Може, пізніше",
+    "startBtn": "Розпочати"
+  },
+  "pushNotification" : {
+    "letSupportYou" : "Дозвольте нам підтримувати вас кожен день!",
+    "notificationsWillHelpYouText" : "Сповіщення допоможуть отримувати своєчасні поради, нагадування про вправи та підтримку саме тоді, коли це найпотрібніше.",
+    "maybeLaterBtn" : "Може, пізніше",
+    "allowBtn" : "Дозволити"
+  },
+  "accountSettings" : {
+    "profileSettings" : "Обліковий запис",
+    "personalSettings" : "Персональні налаштування",
+    "notificationSettings" : "Налаштування сповіщень",
+    "privacyPolicy" : "Політика конфіденційності",
+    "ideasForImprovement" : "Ідеї для покращення",
+    "logOutOfAccount" : "Вийти з акаунту"
+  },
+   "profileSettings" : {
+    "changeAvatar" : "Змінити аватар",
+    "fullName": "Повне ім’я",
+    "yourEmail": "Ваш e-mail",
+    "changePassword" : "Змінити пароль",
+    "deleteProfile" : "Видалити профіль",
+    "saveBtn" : "Зберегти"
+   },
+   "deleteProfile" : {
+    "deleteProfile" : "Видалити профіль",
+    "areYouSureYouWantDeleteProfile" : "Ви впевнені, що хочете видалити профіль. Всі ваші дані буде втрачено",
+    "noCancel" : "Ні, скасувати",
+    "yesDelete" : "Так, видалити"
+   },
+   "personalSettings" : {
+    "personalSettings" : "Персональні налаштування",
+    "whenDidYouJoinTheTeam": "Коли ви приєднались до команди",
+    "yourGender" : "Ваша стать",
+    "genderIdentity" : "Гендерна ідентичність",
+    "yourDateOfBirth" : "Ваша дата народження",
+    "maritalStatus" : "Сімейний стан",
+    "havingChildren" : "Наявність дітей",
+    "attitudeTowardsDigitalTechnologies": "Ставлення до цифрових технологій",
+    "saveBtn" : "Зберегти"
+   },
+   "unsavedData" : {
+    "saveException" : "Є незбережені дані. Ви втратите всі незбережені дані, якщо продовжите без збереження!",
+    "continueBtn": "Продовжити",
+    "saveBtn" : "Зберегти"
+   },
+   "notificationSettings" : {
+    "notificationSettings" : "Налаштування сповіщень",
+    "systemNotifications" : "Системні сповіщення",
+    "notificationsAboutNewFeatures" : "Сповіщення про нові функції та новини",
+    "reminder" : "Нагадування",
+    "notificationsAboutNew" : "Сповіщення про нові функції та новини",
+    "saveBtn" : "Зберегти"
+   },
+   "ideas" : {
+    "ideasForImprovement" : "Ідеї для покращення",
+    "helpBecomeBetter" : "Допоможіть нам стати кращими!",
+    "helpBecomeBetterText" : "Поділіться своїми ідеями або пропозиціями, як ми можемо покращити наш додаток. Ваша думка важлива для нас!",
+    "ideaText" : "Текст ідеї",
+    "writeYourOpinion" : "Напишіть вашу думку",
+    "saveBtn" : "Зберегти"
+   },
+   "thanks" : {
+    "thankYouForFeedback" : "Дякуємо за ваш відгук!",
+    "thanksText" : "Ваші ідеї допомагають нам робити додаток ще кращим. Ми цінуємо ваш внесок і будемо працювати над покращенням. Дякуємо, що ви з нами!"
+   },
+   "logOut" : {
+    "exitTheApp" : "Вийти з додатку",
+    "exitTheAppText" : "Ви впевнені, що хочете вийти з додатку?",
+    "yesGoOut" : "Так, вийти",
+    "noCancel" : "Ні, скасувати"
+    }
+   
+
+
+}

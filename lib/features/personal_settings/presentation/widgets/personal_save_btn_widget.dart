@@ -1,0 +1,25 @@
+import 'package:easy_localization/easy_localization.dart';
+import 'package:flutter/material.dart';
+import 'package:flutter_app_scarb/core/translations/local_keys.g.dart';
+import 'package:flutter_app_scarb/features/personal_settings/presentation/cubit/personal_settings_cubit.dart';
+import 'package:flutter_bloc/flutter_bloc.dart';
+import 'package:widgets_library/core/widgets/buttons/primary_button.dart';
+
+class PersonalSaveBtnWidget extends StatelessWidget {
+  const PersonalSaveBtnWidget({super.key});
+
+  @override
+  Widget build(BuildContext context) {
+    return BlocBuilder<PersonalSettingsCubit, PersonalSettingsState>(
+      builder: (context, state) {
+        return PrimaryButton(
+          title: LocaleKeys.profileSettings_saveBtn.tr(),
+          onTap: () {
+            //
+            context.read<PersonalSettingsCubit>().updatePersonalModel();
+          },
+        );
+      },
+    );
+  }
+}

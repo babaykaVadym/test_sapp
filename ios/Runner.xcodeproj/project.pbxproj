@@ -176,7 +176,6 @@
 				3A67AAF7C9683CFBB0436ED2 /* Pods-RunnerTests.release.xcconfig */,
 				495A75DDA83121ECDA4C5588 /* Pods-RunnerTests.profile.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -444,6 +443,96 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		16FAEEED2D831D0900E26792 /* Debug-dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L35KJKGKLJ;
+				PRODUCT_NAME = Runner;
+			};
+			name = "Debug-dev";
+		};
+		16FAEEEE2D831D0900E26792 /* Profile-dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L35KJKGKLJ;
+				PRODUCT_NAME = Runner;
+			};
+			name = "Profile-dev";
+		};
+		16FAEEEF2D831D0900E26792 /* Release-dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L35KJKGKLJ;
+				PRODUCT_NAME = Runner;
+			};
+			name = "Release-dev";
+		};
+		16FAEEF02D831D0900E26792 /* Debug-prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L35KJKGKLJ;
+				PRODUCT_NAME = Runner;
+			};
+			name = "Debug-prod";
+		};
+		16FAEEF12D831D0900E26792 /* Profile-prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L35KJKGKLJ;
+				PRODUCT_NAME = Runner;
+			};
+			name = "Profile-prod";
+		};
+		16FAEEF22D831D0900E26792 /* Release-prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = L35KJKGKLJ;
+				PRODUCT_NAME = Runner;
+			};
+			name = "Release-prod";
+		};
+		16FAEEF32D831D0900E26792 /* Debug-dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Debug-dev";
+		};
+		16FAEEF42D831D0900E26792 /* Profile-dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Profile-dev";
+		};
+		16FAEEF52D831D0900E26792 /* Release-dev */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Release-dev";
+		};
+		16FAEEF62D831D0900E26792 /* Debug-prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Debug-prod";
+		};
+		16FAEEF72D831D0900E26792 /* Profile-prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Profile-prod";
+		};
+		16FAEEF82D831D0900E26792 /* Release-prod */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = RunnerTests;
+			};
+			name = "Release-prod";
+		};
 		249021D3217E4FDB00AE95B9 /* Profile */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -503,7 +592,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = 69JWRFRJL4;
+				DEVELOPMENT_TEAM = L35KJKGKLJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -990,7 +1079,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = 69JWRFRJL4;
+				DEVELOPMENT_TEAM = L35KJKGKLJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1013,7 +1102,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CLANG_ENABLE_MODULES = YES;
 				CURRENT_PROJECT_VERSION = "$(FLUTTER_BUILD_NUMBER)";
-				DEVELOPMENT_TEAM = 69JWRFRJL4;
+				DEVELOPMENT_TEAM = L35KJKGKLJ;
 				ENABLE_BITCODE = NO;
 				INFOPLIST_FILE = Runner/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -1185,6 +1274,12 @@
 				331C8088294A63A400263BE5 /* Debug */,
 				331C8089294A63A400263BE5 /* Release */,
 				331C808A294A63A400263BE5 /* Profile */,
+				16FAEEF32D831D0900E26792 /* Debug-dev */,
+				16FAEEF42D831D0900E26792 /* Profile-dev */,
+				16FAEEF52D831D0900E26792 /* Release-dev */,
+				16FAEEF62D831D0900E26792 /* Debug-prod */,
+				16FAEEF72D831D0900E26792 /* Profile-prod */,
+				16FAEEF82D831D0900E26792 /* Release-prod */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -1211,6 +1306,12 @@
 				97C147061CF9000F007C117D /* Debug */,
 				97C147071CF9000F007C117D /* Release */,
 				249021D4217E4FDB00AE95B9 /* Profile */,
+				16FAEEED2D831D0900E26792 /* Debug-dev */,
+				16FAEEEE2D831D0900E26792 /* Profile-dev */,
+				16FAEEEF2D831D0900E26792 /* Release-dev */,
+				16FAEEF02D831D0900E26792 /* Debug-prod */,
+				16FAEEF12D831D0900E26792 /* Profile-prod */,
+				16FAEEF22D831D0900E26792 /* Release-prod */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

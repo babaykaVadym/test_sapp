@@ -5,9 +5,15 @@ workflows:
       flutter: stable
       xcode: latest
       cocoapods: default
-      env:
-        ENV_FILE: .env.dev
+      groups:
+        - dev
     scripts:
+      - name: Create .env.dev file
+        script: |
+          echo "API_URL=$API_URL" > .env.dev
+          echo "DEBUG=$DEBUG" >> .env.dev
+          echo "API_CONNECT_TIMEOUT=$API_CONNECT_TIMEOUT" >> .env.dev
+          echo "API_RECEIVE_TIMEOUT=$API_RECEIVE_TIMEOUT" >> .env.dev
       - name: Install dependencies
         script: |
           flutter pub get
@@ -30,9 +36,15 @@ workflows:
       flutter: stable
       xcode: latest
       cocoapods: default
-      env:
-        ENV_FILE: .env.prod
+      groups:
+        - prod
     scripts:
+      - name: Create .env.prod file
+        script: |
+          echo "API_URL=$API_URL" > .env.prod
+          echo "DEBUG=$DEBUG" >> .env.prod
+          echo "API_CONNECT_TIMEOUT=$API_CONNECT_TIMEOUT" >> .env.prod
+          echo "API_RECEIVE_TIMEOUT=$API_RECEIVE_TIMEOUT" >> .env.prod
       - name: Install dependencies
         script: |
           flutter pub get

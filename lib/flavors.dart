@@ -6,6 +6,6 @@ enum Flavor {
 class F {
   static Flavor? appFlavor;
 
-  //adasdadad
+  //adasdadadadasd
   static String? get name => appFlavor?.name;
 }

@@ -66,4 +66,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git add pubspec.yaml
           git commit -m "Increment build number to $NEW_BUILD"
-          git push origin sandbox_branch
+          git push origin test

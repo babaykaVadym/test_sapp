@@ -53,17 +53,3 @@ jobs:
       # Run type checks
       #    - name: Dart analyze
       #      run: flutter analyze
-
-      - name: Increment build number
-        #   env:
-        #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: |
-          CURRENT_VERSION=$(grep '^version: ' pubspec.yaml | sed 's/version: //' | awk -F"+" '{print $1}')
-          CURRENT_BUILD=$(grep '^version: ' pubspec.yaml | sed 's/version: //' | awk -F"+" '{print $2}')
-          NEW_BUILD=$((CURRENT_BUILD + 1))
-          sed -i "s/version: $CURRENT_VERSION+$CURRENT_BUILD/version: $CURRENT_VERSION+$NEW_BUILD/" pubspec.yaml
-          git config --global user.email "github-actions[bot]@users.noreply.github.com"
-          git config --global user.name "github-actions[bot]"
-          git add pubspec.yaml
-          git commit -m "Increment build number to $NEW_BUILD"
-          git push origin test

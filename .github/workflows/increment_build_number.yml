@@ -4,24 +4,27 @@ on:
   pull_request:
     types: [closed]
     branches:
-      - sandbox_branch
+      - sandbox_branch # змініть на основну гілку, куди мерджаться PR
+
+# Додати дозволи для запису в репозиторій
+permissions:
+  contents: write
 
 jobs:
   increment-build:
     name: Increment Build Number
     runs-on: ubuntu-latest
+    # Виконувати тільки коли PR був злитий, а не просто закритий
+    if: github.event.pull_request.merged == true
 
     steps:
-      # Checkout the repository with full history and permissions
-      #  - name: Checkout code
-      #   uses: actions/checkout@v4
-      #  with:
-      #   fetch-depth: 0
-      #  token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.base.ref }} # цільова гілка (куди мерджиться PR)
 
       - name: Increment build number
-        # env:
-        #  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           CURRENT_VERSION=$(grep '^version: ' pubspec.yaml | sed 's/version: //' | awk -F"+" '{print $1}')
           CURRENT_BUILD=$(grep '^version: ' pubspec.yaml | sed 's/version: //' | awk -F"+" '{print $2}')
@@ -31,4 +34,4 @@ jobs:
           git config --global user.name "github-actions[bot]"
           git add pubspec.yaml
           git commit -m "Increment build number to $NEW_BUILD"
-          git push origin sandbox_branch
+          git push origin ${{ github.event.pull_request.base.ref }}  # пушимо в цільову гілку

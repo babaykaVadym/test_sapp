@@ -9,3 +9,4 @@ class F {
   //adasdadadadasd
   static String? get name => appFlavor?.name;
 }
+//test

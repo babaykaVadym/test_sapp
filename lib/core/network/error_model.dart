@@ -14,7 +14,7 @@ class ErrorResponseModel {
     return ErrorResponseModel(
       error: json["error"] == null ? null : ErrorModel.fromJson(json["error"]),
     );
-  }
+  } //test
 }
 
 @freezed

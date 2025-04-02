@@ -1,0 +1,36 @@
+name: Increment Build Number
+
+on:
+  pull_request:
+    types: [closed]
+    branches:
+      - sandbox_branch
+
+permissions:
+  contents: write
+
+jobs:
+  increment-build:
+    name: Increment Build Number
+    runs-on: ubuntu-latest
+
+    if: github.event.pull_request.merged == true
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          ref: ${{ github.event.pull_request.base.ref }}
+
+      - name: Increment build number
+        run: |
+          CURRENT_VERSION=$(grep '^version: ' pubspec.yaml | sed 's/version: //' | awk -F"+" '{print $1}')
+          CURRENT_BUILD=$(grep '^version: ' pubspec.yaml | sed 's/version: //' | awk -F"+" '{print $2}')
+          NEW_BUILD=$((CURRENT_BUILD + 1))
+          sed -i "s/version: $CURRENT_VERSION+$CURRENT_BUILD/version: $CURRENT_VERSION+$NEW_BUILD/" pubspec.yaml
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "github-actions[bot]"
+          git add pubspec.yaml
+          git commit -m "Increment build number to $NEW_BUILD"
+          git push origin ${{ github.event.pull_request.base.ref }}
